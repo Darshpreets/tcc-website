@@ -1,0 +1,45 @@
+.main-navbar{
+	padding-top:  1.5rem!important;
+}
+
+ 
+.aln-center{
+text-align-last: center;
+}
+
+link:hover{
+	color: black;
+}
+
+.color-even{
+	background: #546a7b!important;
+}
+
+.color-odd{
+	background: url(https://raw.githubusercontent.com/GreatDevelopers/TCC/master/tcc/images/patt.png) ;
+    background-size: 256px 256px!important, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+    color: white!important;
+}
+
+.title{
+	color: white!important;
+}
+
+.subtitle{
+	color: white!important;
+	is-3;
+}
+
+strong{
+	color: white!important;
+}
+
+td{
+	color: white!important;
+}
+
+table{
+	background: transparent!important;
+}

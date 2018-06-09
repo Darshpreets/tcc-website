@@ -14,8 +14,6 @@
 .color-even{
 	/*background: #546a7b!important;*/
 	background: url(images/red-gradient.png) ;
-	/*background: url(https://i.pinimg.com/236x/93/2d/aa/932daa82c92d0a70599e694dee812b08--red-pattern-iphone-wallpaper.jpg);*/
-	/*background: url(https://wallpapertag.com/wallpaper/full/9/a/8/66407-large-matrix-background-1920x1080.jpg);*/
 }
 
 .color-odd{
@@ -61,7 +59,7 @@ h3{
   background-color: #f1f1f1;
 }
 
-/* The progress container (grey background) */
+/* The progress container (black background) */
 .progress-container {
   width: 100%;
   height: 8px;
@@ -73,4 +71,8 @@ h3{
   height: 10px;
   background: #4caf50;
   width: 0%;
+}
+
+.center{
+	text-align: center;
 }

@@ -1,7 +1,11 @@
 .main-navbar{
 	padding-top:  1.5rem!important;
+	color: black!important;
 }
 
+.myfont{
+	font-family: 'Acme', sans-serif;
+}
  
 .color-even{
 	background: #546a7b!important;
@@ -36,7 +40,7 @@ table{
 	background: transparent!important;
 }
 
-img{
+/*img{
   display: block!important;
   width: 10px;
   height: 10px;
@@ -62,4 +66,4 @@ figure:hover img {
   filter: blur(3px);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-}
+}*/

@@ -15,6 +15,18 @@
      <!-- usage font-family: 'Permanent Marker', cursive; -->
      <link rel="stylesheet" type="text/css" href="ihover.min.css">
 
+     <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
   </head>
   <body>
 
@@ -39,11 +51,20 @@
       </a>
     </div>
 </div>
+  <!-- progress bar start -->
   </div>
+  <div class="header" style="padding-top: 4rem;">
+  <h2></h2>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
+<!-- progress bar end -->
+</div>
+</div>
 </nav>
 </div>
 
-  <section class="hero color-even is-fullheight "id="main-page"  >
+  <section class="hero color-even is-fullheight first" id="main-page"  >
   <div class="hero-body myfont">
     <div class="container" >
       <h1 class="title is-1 is-marginless is-paddingless aln-center" >

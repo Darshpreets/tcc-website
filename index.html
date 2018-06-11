@@ -14,11 +14,10 @@
      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
      <!-- usage font-family: 'Permanent Marker', cursive; -->
      <link rel="stylesheet" type="text/css" href="ihover.min.css">
-
-     <script>
+     <!-- hover css file -->
+    <script>
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
-
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -28,41 +27,52 @@ function myFunction() {
 </script>
 
   </head>
-  <body>
 
-<div class="block  main-navbar  is-marginless " style="padding-top:  1.5rem;">
-<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <body>
+  
+
+<div class="block  main-navbar  is-marginless is-paddingless color-even">
+<nav class="navbar is-fixed-top is-marginless is-paddingless" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="#">
       <h1 class="title is-2 myfont" style="color: black!important;"> TCC </h1>
     </a>
-    <div class="navbar-menu nav-right">
-         <a class="navbar-item"> 
-      Services
+    <div class="navbar-burger">
+     <figure class="navbar-item image has-text-black center navbar-start">
+        <i class="fas fa-bars" style="width: 2rem; height: 2rem;"></i>
+      </figure>
+      <!-- <button class="navbar-item"> <i class="fa fa-navicon" style="font-size:36px; background: grey; color: red;"></i> </button> -->
+    
+    </div>
+  </div>
+
+<div class="navbar-item">
+         <a class="navbar-menu menu navbar-start "  > Services </a>
+    <a class="navbar-menu menu"> 
+     Pricing 
       </a>
-    <a class="navbar-item"> 
-    Pricing
-      </a>
-    <a href="files/tcc_brochure.pdf" target="_blank" alt="PDF Brochure" class="navbar-item"> 
-    Brochure
-      </a>
-    <a href="#our-consultants" class="navbar-item"> 
-    Consultants
+    <a href="files/tcc_brochure.pdf" target="_blank" alt="PDF Brochure" class="menu navbar-menu"> 
+     Brochure 
+      </a> 
+    <a href="#our-consultants" class="navbar-menu menu"> 
+     Consultants 
       </a>
     </div>
-</div>
-  <!-- progress bar start -->
+     <!-- progress bar start -->
   </div>
   <div class="header" style="padding-top: 4rem;">
   <h2></h2>
-  <div class="progress-container">
+  <div class="progress-container navbar-item is-fullheight">
     <div class="progress-bar" id="myBar"></div>
   </div> 
 <!-- progress bar end -->
-</div>
-</div>
-</nav>
-</div>
+    </nav>
+  </div>
+
+
+
+ 
+
 
   <section class="hero color-even is-fullheight first" id="main-page"  >
   <div class="hero-body myfont">
@@ -347,7 +357,7 @@ Just use this form and we'll respond you soon!
 <div class="field">
   <label class="label subtitle">Email</label>
   <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email input" value="Email@">
+    <input class="input is-danger" type="email" placeholder="Email input">
     <span class="icon is-small is-left">
       <i class="fas fa-envelope"></i>
     </span>
@@ -372,6 +382,27 @@ Just use this form and we'll respond you soon!
     </div>
   </div>
 </section >
+
+<nav class="navbar" role="navigation" aria-label="dropdown navigation">
+  <a class="navbar-item">
+    <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+  </a>
+
+  
+
+   <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+  </div>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true">
+      <span aria-hidden="true">yes</span>
+      <span aria-hidden="true">no</span>
+      <span aria-hidden="true">y</span>
+    </a>
+  <!-- </div> -->
+</nav>
+
+
 
 
 </div>

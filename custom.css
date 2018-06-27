@@ -7,7 +7,7 @@
 }
 
 .first{
-	text-shadow: #FC0 1px 0 10px!important;
+	text-shadow: lightblue 1px 0 2px!important;
 }
 
 .color-even{
@@ -46,7 +46,7 @@ table{
 }
 
 h3{
-	font-size: 20px;
+	font-size: 18px!important;
 }
 
 .menu{
